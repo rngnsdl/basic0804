@@ -10,8 +10,8 @@ public class Student {
 	}
 	
 	Student(String name, int number){
-		name="";
-		number=0;
+		this.name=name;
+		this.number=number;
 	}
 	
 	@Override
